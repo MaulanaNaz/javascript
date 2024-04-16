@@ -7,5 +7,3 @@ for (let i = 1; i <= n; i++) {
 console.log("Hasil penJumlah deret angka")
 console.log("Antara 1 samapai "+n+ " adalah " +jumlah)
 
-
-
