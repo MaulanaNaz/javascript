@@ -38,50 +38,46 @@ do {
   switch (menu) {
     case "1":
       a = prompt("Masukkan Sisi Kubus : ");
-      console.log("Sisi = " + a)
-      console.log("Rumus s * s * s")
-      console.log("Hasil dari Volume Kubus")
-      console.log(parseInt(kubus(a)));
+      console.log("Sisi = " + a);
+      console.log("Rumus s * s * s");
+      console.log("Hasil dari Volume Kubus = " + parseInt(kubus(a)));
       break;
 
     case "2":
       a = prompt("Masukkan Panjang Balok : ");
       b = prompt("Masukkan Lebar Balok : ");
       c = prompt("Masukkan Tinggi Balok : ");
-      console.log("Panjang = " + a)
-      console.log("Lebar = " + b)
-      console.log("Tinggi = " + c)
-      console.log("Rumus P * L * T")
-      console.log("Hasil dari Volume Balok")
-      console.log(parseInt(balok(a, b, c)));
+      console.log("Panjang = " + a);
+      console.log("Lebar = " + b);
+      console.log("Tinggi = " + c);
+      console.log("Rumus P * L * T");
+      console.log("Hasil dari Volume Balok = " + parseInt(balok(a, b, c)));
       break;
 
     case "3":
       a = prompt("Masukkan Jari-Jari Tabung : ");
       b = prompt("Masukkan Tinggi Tabung : ");
-      console.log("Jari-jari = " + a)
-      console.log("Tinggi = " + b)
-      console.log("Rumus 3.14 * r * r * T ")
-      console.log("Hasil dari Volume Tabung")
-      console.log(parseFloat(tabung(a, b)));
+      console.log("Jari-jari = " + a);
+      console.log("Tinggi = " + b);
+      console.log("Rumus 3.14 * r * r * T ");
+      console.log("Hasil dari Volume Tabung = " + parseFloat(tabung(a, b)));
       break;
 
     case "4":
       a = prompt("Masukkan Jari-Jari Bola : ");
-      console.log("Jari-jari = " + a)
-      console.log("Rumus 4/3 * 3.14 * r * r * r")
-      console.log("Hasil dari Volume Bola")
-      console.log(parseFloat(bola(a)));
+      console.log("Jari-jari = " + a);
+      console.log("Rumus 4/3 * 3.14 * r * r * r");
+      console.log("Hasil dari Volume Bola = " + parseFloat(bola(a)));
       break;
 
     case "5":
       a = prompt("Masukkan Jari-Jari Kerucut : ");
       b = prompt("Masukkan Tinggi Kerucut : ");
-      console.log("Jari-jari = " + a)
-      console.log("Tinggi = " + b)
-      console.log("Rumus 1/3 * 3.14 * r * r * T ")
-      console.log("Hasil dari Volume Kerucut")
-      console.log(parseFloat(kerucut(a, b)));
+      console.log("Jari-jari = " + a);
+      console.log("Tinggi = " + b);
+      console.log("Rumus 1/3 * 3.14 * r * r * T ");
+      console.log();
+      console.log("Hasil dari Volume Kerucut = " + parseFloat(kerucut(a, b)));
       break;
 
     default:
